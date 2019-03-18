@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PQScheduleView_Example' do
+  pod 'PQScheduleView', :path => '../'
+
+  target 'PQScheduleView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
