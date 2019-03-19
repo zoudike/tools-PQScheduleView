@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BB121437BA001F33520A44C3B40AFFB /* Pods-PQScheduleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0639703D29356FA57D1016D58D8F4 /* Pods-PQScheduleView_Tests-dummy.m */; };
+		0DE67F9BAFE369BF4D26BC266527A7DE /* PQScheduleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C67B870513CC594EA7F773A3435CEFD9 /* PQScheduleView-dummy.m */; };
+		77C913F27DD5366BF68F732B2FD42F39 /* PQSchedulePorgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB65A5E7DE24E49480BE8CAC2494E4 /* PQSchedulePorgressView.m */; };
+		B1D4511CFFE3EDDC8189200CD549CF78 /* Pods-PQScheduleView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 363236FE60BD301300205FE58635915C /* Pods-PQScheduleView_Example-dummy.m */; };
+		C1B26DDCC2C45E34147736E7C942DFEA /* PQSchedulePorgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8483D87E920D3E41E37EB1AE1A686E08 /* PQSchedulePorgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29441100FD4AED0AEF32A0EEF2A7A426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCBE8E9CC721A14F7FC735F388F178F;
+			remoteInfo = PQScheduleView;
+		};
+		AF8648325D7949603D8C8F9660A0E098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A12563244B486E87C9463C1493781F2;
+			remoteInfo = "Pods-PQScheduleView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C13B94C3C9DA941C3CCDA1096227B56 /* Pods-PQScheduleView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQScheduleView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		254FC8F76A1E1B6098781AD98D0F7135 /* libPQScheduleView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPQScheduleView.a; path = libPQScheduleView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26251618C559EB17216247DD0195A812 /* Pods-PQScheduleView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQScheduleView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		31B85A972FDA7F88E3254DABA52DFA82 /* Pods-PQScheduleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScheduleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		363236FE60BD301300205FE58635915C /* Pods-PQScheduleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQScheduleView_Example-dummy.m"; sourceTree = "<group>"; };
+		3D059DFFC215F8FDCAE997A5F24FB8BF /* Pods-PQScheduleView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQScheduleView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DAFBAE09C754A4DD92B5B531DC678A2 /* Pods-PQScheduleView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQScheduleView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CF1E17B8AC8DDF8046A7AC12F7F8DE9 /* libPods-PQScheduleView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PQScheduleView_Example.a"; path = "libPods-PQScheduleView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631274F27664BE68905F4E3BDB3E552A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		72CAA2A0545C9BEF7413CE29C4398612 /* PQScheduleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQScheduleView-prefix.pch"; sourceTree = "<group>"; };
+		83555A682DFE333547A8D60C2804ED4D /* PQScheduleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PQScheduleView.xcconfig; sourceTree = "<group>"; };
+		8483D87E920D3E41E37EB1AE1A686E08 /* PQSchedulePorgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PQSchedulePorgressView.h; path = PQScheduleView/Classes/PQSchedulePorgressView.h; sourceTree = "<group>"; };
+		85F0639703D29356FA57D1016D58D8F4 /* Pods-PQScheduleView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQScheduleView_Tests-dummy.m"; sourceTree = "<group>"; };
+		8677E5815760175D866407E49871B183 /* Pods-PQScheduleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQScheduleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		879D60204057FAFA37F0350B2841A7F4 /* Pods-PQScheduleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScheduleView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAEBED70269F58A492713E6A00E6BBF /* PQScheduleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PQScheduleView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6153426521E3DD2E2906E924D3F60F9 /* Pods-PQScheduleView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQScheduleView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A76CC1F5164D5D443C7CD2775D6251C5 /* Pods-PQScheduleView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQScheduleView_Example-resources.sh"; sourceTree = "<group>"; };
+		AABB65A5E7DE24E49480BE8CAC2494E4 /* PQSchedulePorgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PQSchedulePorgressView.m; path = PQScheduleView/Classes/PQSchedulePorgressView.m; sourceTree = "<group>"; };
+		AB86315E7880D75BCEAD48DA1E61E13B /* Pods-PQScheduleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScheduleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C67B870513CC594EA7F773A3435CEFD9 /* PQScheduleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PQScheduleView-dummy.m"; sourceTree = "<group>"; };
+		D9746EDD0A6F0ACA73C1D5039ECBD431 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E509058350F952352267BBCD15A2C06C /* Pods-PQScheduleView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQScheduleView_Tests-resources.sh"; sourceTree = "<group>"; };
+		E569F27D04A4E66355E6FB7B1AEEBC03 /* libPods-PQScheduleView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PQScheduleView_Tests.a"; path = "libPods-PQScheduleView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A410F86A6DD6659C0CB935B298EAFF /* Pods-PQScheduleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScheduleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849E4B2AB6D0F2EB25CA1DA4BC48B017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28C2D5BDF8BCF4AB9A7BBAD8AD0DA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E76CCB366FB6D0F5276D45DD43E133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29210F468CE5B6EEE3EEE1E150D244AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83555A682DFE333547A8D60C2804ED4D /* PQScheduleView.xcconfig */,
+				C67B870513CC594EA7F773A3435CEFD9 /* PQScheduleView-dummy.m */,
+				72CAA2A0545C9BEF7413CE29C4398612 /* PQScheduleView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PQScheduleView";
+			sourceTree = "<group>";
+		};
+		2BBA7948950578CCEB640D7AE200D47B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				631274F27664BE68905F4E3BDB3E552A /* LICENSE */,
+				9EAEBED70269F58A492713E6A00E6BBF /* PQScheduleView.podspec */,
+				D9746EDD0A6F0ACA73C1D5039ECBD431 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		398B96C34EA3D7C037EA388C008FDC1A /* Pods-PQScheduleView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D059DFFC215F8FDCAE997A5F24FB8BF /* Pods-PQScheduleView_Tests-acknowledgements.markdown */,
+				8677E5815760175D866407E49871B183 /* Pods-PQScheduleView_Tests-acknowledgements.plist */,
+				85F0639703D29356FA57D1016D58D8F4 /* Pods-PQScheduleView_Tests-dummy.m */,
+				A6153426521E3DD2E2906E924D3F60F9 /* Pods-PQScheduleView_Tests-frameworks.sh */,
+				E509058350F952352267BBCD15A2C06C /* Pods-PQScheduleView_Tests-resources.sh */,
+				31B85A972FDA7F88E3254DABA52DFA82 /* Pods-PQScheduleView_Tests.debug.xcconfig */,
+				F4A410F86A6DD6659C0CB935B298EAFF /* Pods-PQScheduleView_Tests.release.xcconfig */,
+			);
+			name = "Pods-PQScheduleView_Tests";
+			path = "Target Support Files/Pods-PQScheduleView_Tests";
+			sourceTree = "<group>";
+		};
+		3B646DF137608C175ACA5C7AEA129FCB /* PQScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				8483D87E920D3E41E37EB1AE1A686E08 /* PQSchedulePorgressView.h */,
+				AABB65A5E7DE24E49480BE8CAC2494E4 /* PQSchedulePorgressView.m */,
+				2BBA7948950578CCEB640D7AE200D47B /* Pod */,
+				29210F468CE5B6EEE3EEE1E150D244AE /* Support Files */,
+			);
+			name = PQScheduleView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		54B9674C7A783876362DC31DB1DAB381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF1E17B8AC8DDF8046A7AC12F7F8DE9 /* libPods-PQScheduleView_Example.a */,
+				E569F27D04A4E66355E6FB7B1AEEBC03 /* libPods-PQScheduleView_Tests.a */,
+				254FC8F76A1E1B6098781AD98D0F7135 /* libPQScheduleView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C3BA0800C4FCFBFD343801CC6CF62E97 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				54B9674C7A783876362DC31DB1DAB381 /* Products */,
+				E876182A06C0F0289789B613291C839E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91492C08ED6F75827A033DD96958F8C2 /* Pods-PQScheduleView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFBAE09C754A4DD92B5B531DC678A2 /* Pods-PQScheduleView_Example-acknowledgements.markdown */,
+				26251618C559EB17216247DD0195A812 /* Pods-PQScheduleView_Example-acknowledgements.plist */,
+				363236FE60BD301300205FE58635915C /* Pods-PQScheduleView_Example-dummy.m */,
+				0C13B94C3C9DA941C3CCDA1096227B56 /* Pods-PQScheduleView_Example-frameworks.sh */,
+				A76CC1F5164D5D443C7CD2775D6251C5 /* Pods-PQScheduleView_Example-resources.sh */,
+				AB86315E7880D75BCEAD48DA1E61E13B /* Pods-PQScheduleView_Example.debug.xcconfig */,
+				879D60204057FAFA37F0350B2841A7F4 /* Pods-PQScheduleView_Example.release.xcconfig */,
+			);
+			name = "Pods-PQScheduleView_Example";
+			path = "Target Support Files/Pods-PQScheduleView_Example";
+			sourceTree = "<group>";
+		};
+		C3BA0800C4FCFBFD343801CC6CF62E97 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B646DF137608C175ACA5C7AEA129FCB /* PQScheduleView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E876182A06C0F0289789B613291C839E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91492C08ED6F75827A033DD96958F8C2 /* Pods-PQScheduleView_Example */,
+				398B96C34EA3D7C037EA388C008FDC1A /* Pods-PQScheduleView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48047FF5A66F5B991EB44644689A3B7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B26DDCC2C45E34147736E7C942DFEA /* PQSchedulePorgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBE53AE0FE2AF3374251BA7345A133B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B316ED5E11F2B45566D4644E7BD12A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A12563244B486E87C9463C1493781F2 /* Pods-PQScheduleView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47F223EE50B91796259613504978FF1 /* Build configuration list for PBXNativeTarget "Pods-PQScheduleView_Example" */;
+			buildPhases = (
+				CEBE53AE0FE2AF3374251BA7345A133B /* Headers */,
+				6B345A4479A345722F1EB38BD4FF8C0B /* Sources */,
+				E7E76CCB366FB6D0F5276D45DD43E133 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3049492F01342AFEF1A26DD2FDB8ECCA /* PBXTargetDependency */,
+			);
+			name = "Pods-PQScheduleView_Example";
+			productName = "Pods-PQScheduleView_Example";
+			productReference = 5CF1E17B8AC8DDF8046A7AC12F7F8DE9 /* libPods-PQScheduleView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8194AD09D96FF01433C44DEB41B5BEE7 /* Pods-PQScheduleView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757DE48EA5A259559A0738B1F0BBD374 /* Build configuration list for PBXNativeTarget "Pods-PQScheduleView_Tests" */;
+			buildPhases = (
+				E1B316ED5E11F2B45566D4644E7BD12A /* Headers */,
+				7407FB994246BADAD07D567C5FC81B84 /* Sources */,
+				849E4B2AB6D0F2EB25CA1DA4BC48B017 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA31AFD3BA18282A503E6CA0AAE8829F /* PBXTargetDependency */,
+			);
+			name = "Pods-PQScheduleView_Tests";
+			productName = "Pods-PQScheduleView_Tests";
+			productReference = E569F27D04A4E66355E6FB7B1AEEBC03 /* libPods-PQScheduleView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FFCBE8E9CC721A14F7FC735F388F178F /* PQScheduleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D113D5DC96F8F4781F6ACE49B194B17 /* Build configuration list for PBXNativeTarget "PQScheduleView" */;
+			buildPhases = (
+				48047FF5A66F5B991EB44644689A3B7F /* Headers */,
+				6B5849C6F2852C86CC4DB2C03AA1BF40 /* Sources */,
+				A28C2D5BDF8BCF4AB9A7BBAD8AD0DA78 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PQScheduleView;
+			productName = PQScheduleView;
+			productReference = 254FC8F76A1E1B6098781AD98D0F7135 /* libPQScheduleView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 54B9674C7A783876362DC31DB1DAB381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A12563244B486E87C9463C1493781F2 /* Pods-PQScheduleView_Example */,
+				8194AD09D96FF01433C44DEB41B5BEE7 /* Pods-PQScheduleView_Tests */,
+				FFCBE8E9CC721A14F7FC735F388F178F /* PQScheduleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B345A4479A345722F1EB38BD4FF8C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D4511CFFE3EDDC8189200CD549CF78 /* Pods-PQScheduleView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5849C6F2852C86CC4DB2C03AA1BF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C913F27DD5366BF68F732B2FD42F39 /* PQSchedulePorgressView.m in Sources */,
+				0DE67F9BAFE369BF4D26BC266527A7DE /* PQScheduleView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7407FB994246BADAD07D567C5FC81B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB121437BA001F33520A44C3B40AFFB /* Pods-PQScheduleView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3049492F01342AFEF1A26DD2FDB8ECCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PQScheduleView;
+			target = FFCBE8E9CC721A14F7FC735F388F178F /* PQScheduleView */;
+			targetProxy = 29441100FD4AED0AEF32A0EEF2A7A426 /* PBXContainerItemProxy */;
+		};
+		EA31AFD3BA18282A503E6CA0AAE8829F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PQScheduleView_Example";
+			target = 6A12563244B486E87C9463C1493781F2 /* Pods-PQScheduleView_Example */;
+			targetProxy = AF8648325D7949603D8C8F9660A0E098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C3608C119B0E4AB8DBD51820F27D29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879D60204057FAFA37F0350B2841A7F4 /* Pods-PQScheduleView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B5B9510D3DCED4F99AF5A35B2DFC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A410F86A6DD6659C0CB935B298EAFF /* Pods-PQScheduleView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		808B05F4EF5F99E12100AE5AE84EC6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83555A682DFE333547A8D60C2804ED4D /* PQScheduleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PQScheduleView/PQScheduleView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PQScheduleView;
+				PRODUCT_NAME = PQScheduleView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		817877EDB7D5F787E2A3C716D8B305E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB86315E7880D75BCEAD48DA1E61E13B /* Pods-PQScheduleView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		931022D3FE299A4F249A1FA0C45A7222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B85A972FDA7F88E3254DABA52DFA82 /* Pods-PQScheduleView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3D8930653FBFA139C35DC5F977B1E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83555A682DFE333547A8D60C2804ED4D /* PQScheduleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PQScheduleView/PQScheduleView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PQScheduleView;
+				PRODUCT_NAME = PQScheduleView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D113D5DC96F8F4781F6ACE49B194B17 /* Build configuration list for PBXNativeTarget "PQScheduleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808B05F4EF5F99E12100AE5AE84EC6D3 /* Debug */,
+				C3D8930653FBFA139C35DC5F977B1E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757DE48EA5A259559A0738B1F0BBD374 /* Build configuration list for PBXNativeTarget "Pods-PQScheduleView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931022D3FE299A4F249A1FA0C45A7222 /* Debug */,
+				69B5B9510D3DCED4F99AF5A35B2DFC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47F223EE50B91796259613504978FF1 /* Build configuration list for PBXNativeTarget "Pods-PQScheduleView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817877EDB7D5F787E2A3C716D8B305E8 /* Debug */,
+				5C3608C119B0E4AB8DBD51820F27D29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

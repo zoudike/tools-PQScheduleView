@@ -1,0 +1,6 @@
+framework module PQScheduleView {
+  umbrella header "PQScheduleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

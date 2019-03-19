@@ -1,0 +1,16 @@
+PODS:
+  - PQScheduleView (0.1.0)
+
+DEPENDENCIES:
+  - PQScheduleView (from `../`)
+
+EXTERNAL SOURCES:
+  PQScheduleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PQScheduleView: 4fbd4e9f7b6b72639a1e8fb6c6712c6aa7e86a1f
+
+PODFILE CHECKSUM: 33aa46cd52252eae20da56a6645346b298829ab8
+
+COCOAPODS: 1.5.3
